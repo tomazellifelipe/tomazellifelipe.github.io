@@ -1,0 +1,12 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.campanies {
+    padding: 0 0 5rem 0;
+    position: relative;
+
+    img {
+        @include absolutCenter;
+        opacity: 30%;
+    }
+}
