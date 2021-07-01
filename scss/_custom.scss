@@ -2,6 +2,7 @@
 $purple:  #5A4FB3;
 $purple-pastel:    #7D78A3;
 $purple-light: #B9B1F0;
+$pink-light: #F1B2AC;
 
 // scss-docs-start gray-color-variables
 $white:    #fff;
@@ -17,8 +18,8 @@ $gray-900: #212529;
 $black:    #000;
 
 // scss-docs-start theme-color-variables
-$primary:       $purple;
-$secondary:     $purple-light;
+$primary:       $purple-pastel;
+$secondary:     $pink-light;
 
 // accordion overides
 $accordion-icon-width:                    1.85rem;
