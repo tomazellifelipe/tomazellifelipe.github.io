@@ -10851,6 +10851,31 @@ textarea.form-control-lg {
   background-color: #7D78A3;
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+.display-3--title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background: linear-gradient(to right, rgba(125, 120, 163, 0.95), rgba(241, 178, 172, 0.95));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(125, 120, 163, 0.95), rgba(241, 178, 172, 0.95));
 }
@@ -10887,7 +10912,51 @@ textarea.form-control-lg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 30%;
+  opacity: 20%;
+}
+
+.skills {
+  margin-top: 5rem;
+  padding: 0 0 5rem 0;
+}
+.skills__logo-box {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.skills__logo-box img {
+  height: 100%;
+}
+.skills__logo-box img::hover {
+  filter: grayscale(120);
+}
+
+.jobs {
+  position: relative;
+  padding: 1rem 0;
+}
+.jobs__content {
+  padding: 1rem;
+  margin-top: 0;
+}
+.jobs__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .jobs__content p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .jobs__content {
+    margin-top: 5rem;
+  }
+}
+.jobs__pic {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
